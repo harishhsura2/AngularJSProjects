@@ -1,0 +1,5 @@
+<p *ngIf="status">parent works!</p>
+<app-child  [n]="name"   #myvar (emitter)="hide($event)"></app-child>
+
+<!-- <button (click)="hpara()">Hide child para from parent</button> -->
+<!-- {{name}} -->
